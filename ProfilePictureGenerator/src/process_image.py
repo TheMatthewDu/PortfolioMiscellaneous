@@ -206,7 +206,7 @@ def read_body(img: np.ndarray, sketch: np.ndarray, saved: dict) -> np.ndarray:
 
 
 def main():
-    img = cv.imread('../data/new_profile.png', 0)
+    img = cv.imread('../data/img.png', 0)
     sketch = np.full(img.shape, 255, dtype=np.uint8)
     
     saved_images = {}
